@@ -30,3 +30,12 @@ To make the dashboard dynamic, I implemented a robust filtering pane on the righ
 * **Consistency:** Used a unified color palette (Blue/White/Grey) to maintain a professional look.
 * **Alignment:** Grouped slicers systematically on the right to maximize the "real estate" for the charts.
 * **Readability:** Removed gridlines and used custom chart titles for clarity.
+
+<img width="1620" height="624" alt="Screenshot 2025-11-10 223418" src="https://github.com/user-attachments/assets/ab8df015-ce6c-4bcb-8b8b-8d28328fbad3" />
+<img width="1885" height="640" alt="Screenshot 2025-11-10 220942" src="https://github.com/user-attachments/assets/17ce3f3b-2d79-4aef-a386-fe1d9dfdba15" />
+<img width="1887" height="651" alt="Screenshot 2025-11-10 220926" src="https://github.com/user-attachments/assets/68f3045a-eb5e-464d-bdcd-103e77fbf4ba" />
+<img width="1883" height="658" alt="Screenshot 2025-11-10 220753" src="https://github.com/user-attachments/assets/be7ed32d-d931-41b5-9fc9-688415847c2d" />
+<img width="1883" height="632" alt="Screenshot 2025-11-10 220723" src="https://github.com/user-attachments/assets/97afa8b2-0307-4860-99e5-02519bba53e5" />
+<img width="1885" height="638" alt="Screenshot 2025-11-10 220704" src="https://github.com/user-attachments/assets/504acaf2-0040-44e3-9205-0556f37b413e" />
+<img width="1884" height="657" alt="Screenshot 2025-11-10 220641" src="https://github.com/user-attachments/assets/b0b46847-3936-4e80-9f97-c5da1e74e070" />
+<img width="1524" height="678" alt="Screenshot 2025-11-10 183808" src="https://github.com/user-attachments/assets/f607b41c-524e-4864-b452-8fd8f897c712" />
