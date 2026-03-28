@@ -1,0 +1,41 @@
+#  Key Performance Indicators (KPIs) Explained
+
+This dashboard tracks four primary KPI categories to provide a 360-degree view of business health:
+
+### 1. Profitability Metrics
+* **Average Profit by Region:** * **Goal:** To identify which geographical areas are performing above or below the company average.
+    * **Insight:** In this dataset, the **East region** shows the highest average profit ($179.94$), while the **South region** indicates a significant loss ($-32.63$), signaling a need for operational review in that area.
+* **Product Category Wise Discount:**
+    * **Goal:** To monitor if high discounts are eroding profit margins.
+    * **Insight:** By comparing the average discount across **Furniture, Office Supplies, and Technology**, management can see if a specific category is being "oversold" at a loss.
+
+### 2. Sales Volume & Velocity
+* **Top 10 Products by Sales vs. Profit:**
+    * **Goal:** To distinguish between "High Volume" products and "High Margin" products.
+    * **Insight:** Some products may have massive sales (tall orange bars) but relatively low profit (shorter blue bars), suggesting high overhead or thin margins.
+* **Sub-Category Sales Count:**
+    * **Goal:** To measure the frequency of orders across different product lines.
+    * **Insight:** This helps in inventory management—knowing that **Paper** and **Binders** have higher transaction counts than **Copiers** allows for better stock planning.
+
+### 3. Customer & Order Segmentation
+* **Customer Segment Quantity:**
+    * **Goal:** To identify the most loyal or active buyer persona.
+    * **Insight:** By tracking the `Count of Quantity` across **Corporate, Consumer, and Home Office**, the marketing team can decide where to allocate their advertising budget.
+* **Order Priority Distribution:**
+    * **Goal:** To understand the urgency of customer demands.
+    * **Insight:** High counts of **Critical** or **High** priority orders may indicate that the logistics team needs more resources to meet tight deadlines.
+
+### 4. Logistics & Operational Efficiency
+* **Most Shipping Mode (Sales Contribution):**
+    * **Goal:** To analyze the preferred delivery methods and their impact on revenue.
+    * **Insight:** **Regular Air** dominates the sales volume ($990,052$), suggesting it is the standard "workhorse" for the company's distribution strategy.
+
+---
+
+### Technical DAX / Calculation Note
+In this project, the KPIs were calculated using **Implicit and Explicit Measures** within Power Pivot:
+* **Sum of Sales:** `SUM(Orders[Sales])`
+* **Average Profit:** `AVERAGE(Orders[Profit])`
+* **Count of Sales:** `COUNT(Orders[Order ID])`
+
+
